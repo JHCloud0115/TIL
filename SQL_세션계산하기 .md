@@ -37,7 +37,7 @@ AND user_id =20
 ORDER BY user_id,occurred_at;
 ```
 
-![1.png](attachment:1.png)
+![1.png](1.png)
 
 --> 2번째 행을 확인해보면 lag는 occured_at의 첫번째 행을 가져와서 이전의 기록을 보여주고  
 lead는 그 다음 발생한 occured_at의 시간을 가져와서 보여주는 함수  
@@ -75,7 +75,7 @@ SELECT bounds.*,
               	 	 OR next_event IS NULL 
 ```
 
-![2.png](attachment:2.png)
+![2.png](2.png)
 
 ## #3
 
@@ -113,7 +113,7 @@ SELECT bounds.*,
 
                                                     ↓       session_start은 occured_at의 최소값   session_end는 occured_at의 최대값
 
-![3.png](attachment:3.png)
+![3.png](3.png)
 
 ## #4
 
@@ -177,4 +177,4 @@ SELECT e.*,
 
 위의 쿼리를 통해 아래와 같은 차트를 얻을 수 있음
 
-![4.png](attachment:4.png)
+![4.png](4.png)
