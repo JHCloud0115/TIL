@@ -498,7 +498,7 @@ Test_labels[5]
 
 
 
-#### 실제 Test_data[0] 이미지 확인
+#### 실제 Test_data[5] 이미지 확인
 
 
 ```python
